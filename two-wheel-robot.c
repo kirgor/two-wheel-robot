@@ -6,7 +6,7 @@
 uint8_t buffer[2];
 
 int main() {
-	log_init(UART_16_9600);
+	log_init(UART_MODE_16_9600);
 	log_write("\nStart");
 
 	rf24_pins_init();
